@@ -36,6 +36,15 @@ module.exports = {
         options: {
           name: '[name].[ext]?[hash]'
         }
+      },
+      //报错后字体ttf有问题  
+      //自己配置字体
+      {
+        test: /\.(ttf|woff2|woff|eot)$/,
+        loader: 'file-loader',
+        options: {
+          name: '[name].[ext]?[hash]'
+        }
       }
     ]
   },
