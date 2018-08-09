@@ -14,7 +14,6 @@
       <router-link tag="li" to="/equips">
       	<a>装备列表</a>
       </router-link>
-
     </ul>
   </div>
 </template>
